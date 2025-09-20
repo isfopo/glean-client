@@ -18,8 +18,8 @@
     "src"
   ],
   "scripts": {
-    "generate:types": "openapi-typescript http://api.glean.com/spec -o src/types.ts",
-    "generate:types:local": "openapi-typescript http://localhost:3000/spec -o src/types.ts"
+    "generate:types": "openapi-typescript http://api.glean.com/spec -o dist/types.ts",
+    "generate:types:local": "openapi-typescript http://localhost:3000/spec -o dist/types.ts"
   },
   "devDependencies": {
     "openapi-typescript": "^7.9.1"
