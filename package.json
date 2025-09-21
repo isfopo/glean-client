@@ -1,6 +1,6 @@
 {
   "name": "glean-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "homepage": "https://github.com/isfopo/glean-client#readme",
   "bugs": {
@@ -13,13 +13,11 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "src/index.js",
+  "main": "dist/index.ts",
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
-    "generate:types": "openapi-typescript http://api.glean.com/spec -o dist/types.ts",
-    "generate:types:local": "openapi-typescript http://localhost:3000/spec -o dist/types.ts",
     "openapi-ts": "openapi-ts"
   },
   "devDependencies": {
